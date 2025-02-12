@@ -6,7 +6,7 @@
 // Version 1.0
 // Copyright (c) 2025 Noah Smith. All rights reserved.
 //
-// The VolSphere program asks the user to enter a radius, 
+// The VolSphere program asks the user to enter a radius,
 // then calculates and displays the sphere's volume with the given radius.
 
 // Import foundation library
@@ -21,7 +21,7 @@ let radiusString = readLine()
 let radius = Double(radiusString!)!
 
 // Check user's radius to make sure it is greater than zero
-if (radius > 0) {
+if radius > 0 {
     // Calculate volume
     let volume: Double = 4.0 / 3.0 * pow(radius, 3) * Double.pi
 
